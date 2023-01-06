@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Talk Movies</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script defer src="index.js"></script>
+
+</head>
+<body>
+    <div id="top" >
+        <img class="logo" src="https://www.shutterstock.com/image-vector/initial-j-monogram-alphabet-incorporated-260nw-2039066960.jpg" />
+        <h1>Js Talk Movies</h1>
+    </div>
+    <div >
+        
+    </div>
+    <nav id="navbar" >
+        <h3>Which of these top 2022 movies is your favorite?</h3>
+        <div class="container">
+            <div  >
+                <img class="navImages1" src="assets/glass-onion-image.jpg" />
+                <br />
+                <button id='button1' class="buttonLoad1" name="vote" type ="button">Vote</button>
+            </div>
+            <div>
+                <img class="navImages2" src="assets/nope-image.jpg" /> 
+                <br />
+                <button id='button2' class="buttonLoad2" name="vote" type ="button" >Vote</button>
+            </div>
+            <div>
+                <img class="navImages3" src="assets/top-gun-image.jpg" />
+                <br />
+                <button id='button3' class="buttonLoad3" name="vote" type ="button">Vote</button>
+            </div>
+        </div>
+
+    </nav>
+
+    <hr/>
+    <!-- put main code here -->
+    <form id="form">
+        <h3><u>Search where to watch a movie or TV show:</u></h3>
+        <label for="searchbar">Movie or TV name:</label><br>
+        <input type="text" id="term-searched" name="searchbar" value=""><br>
+        <label for="country">Country you're watching from:</label><br>
+        <input type="text" id="country-searched" name="country" value=""><br><br>
+        <input type="submit" id="search-btn" value="Search">
+    </form>
+
+    <div>
+        <h4> <u>Search results:</u></h4>
+        <div id="movie-name" > 
+            <div> Movie or TV name:</div>
+        </div>
+        <div>
+            <img id="movie-image" class="" src="" />
+        </div>
+        <div id="platform-icon" >
+            <img id="detail-icon" src=""/>
+        </div>
+        <div id='platform-list' >Available to watch on:
+            <ul  >
+                <ul id='platform-name'>  </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.logo {
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    height: 100px;
+    object-fit: fill;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue',;
+}
+
+.navImages1 {
+    width: 250px;
+    height: 371px;
+    object-fit: fill;
+}
+.navImages2 {
+    width: 250px;
+    height: 371px;
+    object-fit: fill;
+}
+.navImages3 {
+    width: 250px;
+    height: 371px;
+    object-fit: fill;
+}
+.container {
+   flex-wrap: nowrap;
+}
+
+.buttonLoad {
+    background-color: rgb(236, 235, 235);
+    color: black;
+    border: none;
+}
+
+.buttonClicked {
+    background-color: rgb(237, 20, 20);
+    color: black;
+    border: none;
+}
+
+.navImagesHover {
+    width: 250px;
+    height: 371px;
+    object-fit: fill;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+
+.resultImage {
+    width: 480px;
+    height: 270px; 
+    object-fit: fill;
+}
+
+.detailIcon {
+    width: 480px;
+    height: 270px; 
+    object-fit: fill;
+}
